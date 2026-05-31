@@ -238,6 +238,26 @@ h3 {
   padding: 24px;
 }
 
+.work-type {
+  margin: 0 0 10px;
+  color: var(--gold);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.text-link {
+  display: inline-flex;
+  margin-top: 8px;
+  color: var(--white);
+  font-weight: 900;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.featured-work {
+  border: 1px solid rgba(194, 139, 45, 0.5);
+}
+
 .contact {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
