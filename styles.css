@@ -249,6 +249,18 @@ h3 {
   max-width: 760px;
 }
 
+.contact-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.wechat {
+  color: var(--green-dark);
+  font-weight: 800;
+}
+
 footer {
   padding: 28px clamp(18px, 6vw, 78px);
   border-top: 1px solid var(--line);
@@ -291,5 +303,9 @@ footer p {
 
   .contact .button {
     width: 100%;
+  }
+
+  .contact-actions {
+    align-items: stretch;
   }
 }
