@@ -3,18 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>shenyif5 | 网站与 App 制作</title>
+    <title data-i18n="metaTitle">shenyif5 | 网站与 App 制作</title>
     <meta name="description" content="为个人和小型商家制作清晰、好用、可上线的网站与轻量 App。">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="site-header" aria-label="主导航">
       <a class="brand" href="#top">shenyif5</a>
-      <nav>
-        <a href="#services">服务</a>
-        <a href="#work">案例</a>
-        <a href="#contact">联系</a>
+      <nav aria-label="页面导航">
+        <a href="#services" data-i18n="navServices">服务</a>
+        <a href="#work" data-i18n="navWork">案例</a>
+        <a href="#contact" data-i18n="navContact">联系</a>
       </nav>
+      <button class="language-toggle" type="button" data-language-toggle aria-label="Switch language">EN</button>
     </header>
 
     <main id="top">
@@ -22,72 +23,72 @@
         <img src="assets/hero.png" alt="桌面上的电脑和手机展示现代网站界面">
         <div class="hero-shade"></div>
         <div class="hero-content">
-          <p class="eyebrow">网站 / App / 自动化工具</p>
-          <h1>帮你把想法做成能上线的产品</h1>
-          <p class="hero-copy">我为个人、自由职业者和本地小商家制作清晰、快速、好维护的网站与轻量应用。</p>
+          <p class="eyebrow" data-i18n="heroEyebrow">网站 / App / 自动化工具</p>
+          <h1 data-i18n="heroTitle">帮你把想法做成能上线的产品</h1>
+          <p class="hero-copy" data-i18n="heroCopy">我为个人、自由职业者和本地小商家制作清晰、快速、好维护的网站与轻量应用。</p>
           <div class="actions">
-            <a class="button primary" href="#contact">开始聊项目</a>
-            <a class="button secondary" href="#work">查看案例</a>
+            <a class="button primary" href="#contact" data-i18n="heroPrimary">开始聊项目</a>
+            <a class="button secondary" href="#work" data-i18n="heroSecondary">查看案例</a>
           </div>
         </div>
       </section>
 
       <section class="section" id="services">
         <div class="section-heading">
-          <p class="eyebrow">服务</p>
-          <h2>从一个可上线的小版本开始</h2>
+          <p class="eyebrow" data-i18n="servicesEyebrow">服务</p>
+          <h2 data-i18n="servicesTitle">从一个可上线的小版本开始</h2>
         </div>
         <div class="service-grid">
           <article class="service-card">
             <span class="icon">01</span>
-            <h3>展示型网站</h3>
-            <p>适合个人主页、作品集、餐馆菜单、课程介绍和活动页面。</p>
+            <h3 data-i18n="serviceOneTitle">展示型网站</h3>
+            <p data-i18n="serviceOneCopy">适合个人主页、作品集、餐馆菜单、课程介绍和活动页面。</p>
           </article>
           <article class="service-card">
             <span class="icon">02</span>
-            <h3>业务工具</h3>
-            <p>把预约、报价、表单收集、客户资料整理成一个简单可用的系统。</p>
+            <h3 data-i18n="serviceTwoTitle">业务工具</h3>
+            <p data-i18n="serviceTwoCopy">把预约、报价、表单收集、客户资料整理成一个简单可用的系统。</p>
           </article>
           <article class="service-card">
             <span class="icon">03</span>
-            <h3>上线维护</h3>
-            <p>部署、域名、基础 SEO、内容更新和后续小功能迭代。</p>
+            <h3 data-i18n="serviceThreeTitle">上线维护</h3>
+            <p data-i18n="serviceThreeCopy">部署、域名、基础 SEO、内容更新和后续小功能迭代。</p>
           </article>
         </div>
       </section>
 
       <section class="section band" id="work">
         <div class="section-heading">
-          <p class="eyebrow">案例</p>
-          <h2>已经上线的小项目</h2>
+          <p class="eyebrow" data-i18n="workEyebrow">案例</p>
+          <h2 data-i18n="workTitle">已经上线的小项目</h2>
         </div>
         <div class="work-list">
           <article class="featured-work">
-            <p class="work-type">租房 MVP / Supabase / Netlify</p>
-            <h3>良睦合景轩租房 MVP</h3>
-            <p>面向房东、租客和带看阿姨的三方租房网页应用，支持房源发布、平台审核、公开展示和下架管理。</p>
-            <a class="text-link" href="https://liangmu-jinxuan-rental.netlify.app/" target="_blank" rel="noreferrer">查看项目</a>
+            <p class="work-type" data-i18n="workOneType">租房 MVP / Supabase / Netlify</p>
+            <h3 data-i18n="workOneTitle">良睦合景轩租房 MVP</h3>
+            <p data-i18n="workOneCopy">面向房东、租客和带看阿姨的三方租房网页应用，支持房源发布、平台审核、公开展示和下架管理。</p>
+            <a class="text-link" href="https://liangmu-jinxuan-rental.netlify.app/" target="_blank" rel="noreferrer" data-i18n="workOneLink">查看项目</a>
           </article>
           <article>
-            <h3>本地商家展示页</h3>
-            <p>用一页介绍服务、价格、案例和联系方式，适合快速上线测试客户反馈。</p>
+            <h3 data-i18n="workTwoTitle">本地商家展示页</h3>
+            <p data-i18n="workTwoCopy">用一页介绍服务、价格、案例和联系方式，适合快速上线测试客户反馈。</p>
           </article>
           <article>
-            <h3>预约收集页面</h3>
-            <p>让客户提交需求，自动整理到邮箱或表格。</p>
+            <h3 data-i18n="workThreeTitle">预约收集页面</h3>
+            <p data-i18n="workThreeCopy">让客户提交需求，自动整理到邮箱或表格。</p>
           </article>
         </div>
       </section>
 
       <section class="section contact" id="contact">
         <div>
-          <p class="eyebrow">联系</p>
-          <h2>有一个小想法，就可以开始</h2>
-          <p>可以通过微信或邮箱联系我，简单说一下你想做的网站或小工具。</p>
+          <p class="eyebrow" data-i18n="contactEyebrow">联系</p>
+          <h2 data-i18n="contactTitle">有一个小想法，就可以开始</h2>
+          <p data-i18n="contactCopy">可以通过微信或邮箱联系我，简单说一下你想做的网站或小工具。</p>
         </div>
         <div class="contact-actions">
           <a class="button primary" href="mailto:shenyifan0517@gmail.com">shenyifan0517@gmail.com</a>
-          <span class="wechat">微信：ShenYifan_Ivan</span>
+          <span class="wechat" data-i18n="wechat">微信：ShenYifan_Ivan</span>
         </div>
       </section>
     </main>
@@ -95,5 +96,6 @@
     <footer>
       <p>© 2026 shenyif5. Built for launch.</p>
     </footer>
+    <script src="language.js"></script>
   </body>
 </html>
